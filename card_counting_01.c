@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 int main(){
+  
     char card_name[3];
     int count = 0;
 
@@ -27,7 +28,7 @@ int main(){
                     continue;
                 }
         }
-        
+
         if((val > 2) && (val < 7)){
             count++;
         }else if (val == 10){
